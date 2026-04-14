@@ -135,6 +135,4 @@ Cet outil est destiné **exclusivement** à un usage éducatif et à des tests d
 
 ---
 
-## 🔗 Liens
 
-- **Dépôt GitHub** : [https://github.com/Maxime288/Urus-Cracker-Pro](https://github.com/Maxime288/Urus-Cracker-Pro)
