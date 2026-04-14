@@ -34,11 +34,26 @@ Le script repose sur le principe de l'**attaque par dictionnaire** :
 
 ---
 
+## 📦 Installation
+
+### 1. Cloner le dépôt
+
+```bash
+git clone https://github.com/Maxime288/Urus-Cracker-Pro
+cd Urus-Cracker-Pro
+```
+
+### 2. Vérifier Python
+
+```bash
+python3 --version
+```
+
+> Python 3.10 ou supérieur est requis. Aucune dépendance externe n'est nécessaire — le script repose uniquement sur `hashlib`, `argparse`, `sys` et `time`, tous inclus dans la bibliothèque standard Python.
+
+---
+
 ## 🚀 Utilisation
-
-### Prérequis
-
-Le script utilise uniquement des bibliothèques standards de Python (`hashlib`), aucune installation externe n'est requise.
 
 ### Syntaxe
 
@@ -46,12 +61,18 @@ Le script utilise uniquement des bibliothèques standards de Python (`hashlib`),
 python3 urus_cracker.py -t <VOTRE_HASH> -w <WORDLIST>
 ```
 
-### Exemple de test
+### Exemple SHA-256
 
 Pour casser le mot de passe `password123` :
 
 ```bash
 python3 urus_cracker.py -t ef92b778ba715867219a6bc011652561c04e330e59dd0b62e40e21936954274d -w passwords.txt
+```
+
+### Exemple MD5
+
+```bash
+python3 urus_cracker.py -t 33796ec8787f71936c50756306c9a331 -w passwords.txt -f md5
 ```
 
 ---
@@ -68,3 +89,9 @@ Pour des tests efficaces, il est recommandé d'utiliser des dictionnaires réels
 ## ⚠️ Avertissement Légal
 
 Cet outil est destiné **exclusivement** à un usage éducatif et à des tests de pénétration autorisés. L'utilisation de ce script pour tenter d'accéder à des comptes dont vous n'êtes pas le propriétaire ou sans autorisation explicite est **illégale**.
+
+---
+
+## 🔗 Liens
+
+- **Dépôt GitHub** : [https://github.com/Maxime288/Urus-Cracker-Pro](https://github.com/Maxime288/Urus-Cracker-Pro)
