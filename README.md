@@ -52,7 +52,7 @@ Le script repose sur le principe de l'**attaque par dictionnaire avec mutations*
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/Maxime288/Urus-Cracker-Pro
+git clone https://github.com/Maxime288/Urus-Cracker-Pro.git
 cd Urus-Cracker-Pro
 ```
 
