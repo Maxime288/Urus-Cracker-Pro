@@ -52,7 +52,7 @@ Le script repose sur le principe de l'**attaque par dictionnaire avec mutations*
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/Maxime288/Urus-Cracker-Pro.git
+git clone https://github.com/Maxime288/Urus-Cracker-Pro
 cd Urus-Cracker-Pro
 ```
 
@@ -62,7 +62,25 @@ cd Urus-Cracker-Pro
 python3 --version
 ```
 
-> Python 3.10 ou supérieur est requis. Aucune dépendance externe n'est nécessaire — le script repose uniquement sur `hashlib`, `argparse`, `sys`, `time` et `datetime`, tous inclus dans la bibliothèque standard Python.
+> Python 3.10 ou supérieur est requis.
+
+### 3. Rendre le script exécutable (Linux / macOS)
+
+```bash
+chmod +x urus_cracker.py
+```
+
+### 4. Dépendances
+
+Aucune installation externe n'est requise. Le script utilise uniquement des modules de la **bibliothèque standard Python** :
+
+| Module | Rôle |
+|---|---|
+| `hashlib` | Calcul des hashes (MD5, SHA-256, SHA-512…) |
+| `argparse` | Gestion des arguments CLI (`-t`, `-w`, `-f`) |
+| `sys` | Affichage dynamique dans le terminal |
+| `time` | Mesure du temps d'exécution |
+| `datetime` | Horodatage |
 
 ---
 
